@@ -1,0 +1,1045 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* follow us */
+.landing_image{
+    background-image: url("IMAGE/LANDING-page-image.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.follow_icon p {
+    display: inline-block;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.right_login p{
+    display: inline-block;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+
+}
+/* navigation */
+.navbar-nav {
+    margin: 0 auto;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+.select_player{
+    text-align: center;
+}
+.player1, .player2,  .player3{
+    width: 100px;
+    margin-top: 5px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+}
+.player1:hover, .player2:hover,  .player3:hover{
+    transition: .5s;
+    background-color: #ffdc11;
+}
+.select_player a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+.select_player a:hover {
+    color: none;
+    text-decoration: none !important;
+}
+ /* landing page content  */
+#yellow{
+    color: #ffdc11;
+}
+.get_started{
+    background-color: #fff;
+    float: left;
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.get_started:hover{
+    text-decoration: none;
+    background-color: #ffdc11;
+    transition: .4s;
+}
+
+.fa-play-circle{
+margin: 8px auto;   
+filter: drop-shadow(0 0 0.75rem rgb(31, 30, 30));
+}
+
+/* sport  */
+.sport_bg{
+    background-color: #f2f2f2;
+    width: 100%;
+    min-height: 500px;
+}
+.text_c {
+text-align: center;
+
+}
+.spt_img img{
+        width: 93%;
+}
+
+/* typesofgame */
+.type_one{
+    width: 600px;
+    height: 100px;
+    background-color: white;
+}
+.typeA{
+    float: left;
+}
+.typeA img{
+    width: 58%;
+    margin: 15px 10px auto;
+}
+.typeB h5{
+    float: left;
+    line-height: 100px;
+}
+
+/* table tannis */
+.typeC{
+    float: right;
+}
+.typeC img{
+    width: 62%;
+    margin: 15px 10px auto;
+}
+.typeD h5{
+    float: right;
+    line-height: 100px;
+}
+/* type_two */
+.type_two{
+    margin-top: 30px;
+    width: 600px;
+    height: 100px;
+    background-color: white;
+}
+.typeE{
+    float: left;
+}
+.typeE img{
+    width: 62%;
+    margin: 15px 10px auto;
+}
+.typeF h5{
+    float: left;
+    line-height: 90px;
+}
+
+.typeG{
+    float: right;
+}
+.typeG img{
+    width: 62%;
+    margin: 15px 10px auto;
+}
+.typeH h5{
+    float: right;
+    line-height: 90px;
+}
+/* type three */
+.type_three{
+    margin-top: 30px;
+    width: 600px;
+    height: 90px;
+    background-color: white;
+}
+.typeI{
+    float: left;
+}
+.typeI img{
+    width: 62%;
+    margin: 15px 10px auto;
+}
+.typeJ h5{
+    float: left;
+    line-height: 90px;
+}
+
+.typeK{
+    float: right;
+}
+.typeK img{
+    float: right;
+    width: 62%;
+    margin: 15px  10px auto;
+}
+.typeL h5{
+    float: right;
+    line-height: 90px;
+}
+
+/* popular player */
+.popular_player{
+    background-image: url("IMAGE/popular-player.png");
+    background-size: 100% 100%;
+    height: 43px;
+    display: grid;
+}
+.popular_player h5{
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+}
+
+ /* macheal player details  */
+ .micheal{
+     margin-top: 20px;
+     width: 100%;
+     height: 319px;
+     background-color: #f2f2f2;
+     position: relative;
+ }
+ .micheal img{
+     width: 75%;
+     position: absolute;
+ }
+
+ 
+
+ /* hover micheal left slide */
+ .search{
+    float:left;
+    width: 40px;
+    height: 68px;
+    transition: .6s;
+    background-color: #2a2b2d; 
+    position: relative;
+    bottom: -71%;
+    left: 0;
+    z-index: 9999;
+    
+ }
+ .search:hover {
+     width: 300px;
+     height: 68px;
+     clip-path: polygon(0 1%, 100% 1%, 88% 100%, 0% 100%);
+
+ }
+
+ .search p{
+    width: auto;
+     text-align: center;
+     margin-left: 25px;
+     color: white;
+     }
+     .search:hover p{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+         }
+
+    .search h4{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: white;
+    }
+ .box{
+    width: 90px;
+    height: 70px;
+    clip-path: polygon(0 1%, 100% 1%, 73% 100%, 0% 100%);
+    background-color: #343638;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+
+ /* right per player score chart */
+ .player-one{
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 250px;
+    background-color: #2a2b2d;
+    height: 80px;
+    float: right;
+ }
+  .player-one-score {
+      background-color: #343638;
+    display: inline-block;
+    float: left;
+    margin-left: 31px;
+    width: 50px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ .player-one-name {
+     text-align: center;
+ }
+ .player-one-name p{
+     display: inline-block;
+     margin-bottom: 0px;
+ }
+ .player-one-score, 
+ .player-one-name{
+     color: white;
+ }
+ .player-one-forword p{
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+ .player-one-forword p{
+     color: white;
+     text-align: center;
+     display: inline-block;
+     margin-left: 51px;
+    font-size: 13px;
+    margin-bottom: 0px;
+
+
+ }
+ .fwrdandname{
+    padding: 16px 0;
+
+ }
+ /* .player-two */
+ .player-two{
+    clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+    width: 273px;
+    background-color: yellow;
+    height: 80px;
+    float: right;
+    top: 25%;
+    position: absolute;
+    left: 362px;
+ }
+ .player-two-score {
+     display: inline-block;
+        background-color: #343638;
+        display: inline-block;
+        float: left;
+        margin-left: 54px;
+        width: 50px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+ }
+ .player-two-score h3 {
+    display: inline-block;
+    color: white;
+}
+ .player-two-name p{
+     margin-bottom: 0;
+ }
+ .player-two-name p, .player-two-forword p{
+     text-align: center;
+     margin-bottom: 0;
+ }
+ .fwrdandname2{
+    padding: 16px 0;
+
+ }
+ /* player-three */
+ .player-three{
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 8% 100%);    
+    width: 273px;
+    background-color: black;
+    height: 80px;
+    float: right;
+    top: 158px;
+    position: absolute;
+    left: 362px;
+ }
+ .player-three-score {
+    display: inline-block;
+       background-color: #343638;
+       display: inline-block;
+       float: left;
+       margin-left: 54px;
+       width: 50px;
+       height: 80px;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+}
+
+.player-three-score h3 {
+    display: inline-block;
+    color: white;
+}
+ .player-three-name p{
+     margin-bottom: 0;
+ }
+ .player-three-name p, .player-three-forword p{
+     text-align: center;
+     margin-bottom: 0;
+     color: white;
+ }
+ .fwrdandname3{
+    padding: 16px 0;
+
+ }
+ /*  player-one*/
+
+ .player-four {
+    clip-path: polygon(0% 0, 100% 0, 100% 100%, 8% 100%);
+    width: 250px;
+    background-color: #2a2b2d;
+    height: 80px;
+    position: absolute;
+    float: right;
+    top: 238px;
+    left: 385px;
+}
+.player-four-score {
+    display: inline-block;
+    background-color: #343638;
+    display: inline-block;
+    float: left;
+    margin-left: 31px;
+    width: 50px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.player-four-score h3 {
+    color: white;
+}
+.player-four-name p, .player-four-forword p{
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+.fwrdandname4{
+    padding: 16px 0;
+
+ }
+ /* match result */
+
+ .match-result{
+     width: 100%;
+     height: 250px;
+     background-color: #2a2b2d;
+     margin-top: 20px;
+     position: relative;
+ }
+ .yyy{
+    width: 0; 
+  height: 0; 
+  margin: 0 auto;
+  border-left: 270px solid transparent;
+  border-right: 270px solid transparent;
+  transform: rotate(180deg);  
+  border-bottom: 250px solid #ffdc11;
+
+}
+.yyy-content {
+    width: 200px;
+    height: 97px;
+    position: absolute;
+    z-index: 111;
+    top: 118px;
+    left: -115px;
+    transform: rotate(180deg);  
+    text-align: center;
+
+}
+.yyy-content h6{
+    font-size: 17px;
+    margin: 0;
+}
+.yyy-content p{
+    font-size: 12px;
+
+}
+.black-circle {
+    width: 250px;
+    height: 125px;
+    background-color: #2a2b2d;
+    position: absolute;
+    bottom: -92px;
+    left: 50%;
+    border-radius: 0 0 150px 150px;
+    transform: translate(-50%, 27%);
+}
+.black-circle p {
+    color: white;
+    transform: rotate(180deg);
+    text-align: center;
+    top: 53%;
+    left: 30%;
+    position: absolute;
+    font-weight: 600;
+}
+.black-circle h4 {
+    color: white;
+    transform: rotate(180deg);
+    text-align: center;
+    top: 31%;
+    left: 33%;
+    position: absolute;
+}
+.score79{
+    color: #ffdc11;
+}
+
+.yorkshire {
+    width: 100px;
+    min-height: 50px;
+    bottom: 15%;
+    left: 5%;
+    position: absolute;
+}
+
+.yorkshire img {
+    width: 40%;
+    margin-bottom: 10px;
+}
+.yorkshire h6 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 19px;
+
+}
+.yorkshire p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 10px;
+}
+
+.sharks-club {
+    width: 100px;
+    min-height: 50px;
+    bottom: 15%;
+    right: 5%;
+    position: absolute;
+}
+.sharks-club img{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.sharks-club h6 {
+    margin-bottom: 0;
+    color: white;
+    font-size: 18px;
+
+}
+.sharks-club p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 10px;
+}
+
+ /* team-ranking chart*/
+ .team-ranking{
+        background-image: url("IMAGE/popular-player.png");
+        background-size: 100% 100%;
+        height: 43px;
+        display: grid;
+ }
+ .team-ranking h5 {
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+/* team-sub-details */
+.team-sub-details {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.team-sub-details P{
+     color: black;
+}
+
+.team-sub-details .rank{
+    list-style: none;
+    float: left;
+    padding-right: 145px;
+
+}
+.team-sub-details, .M, .W, .pts{
+    list-style: none;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.team-sub-details ul li {
+    list-style: none;
+}
+.team-sub-details ul li {
+    color: black;
+    float: left;
+}
+
+/* first */
+.team-name {
+    width: 100%;
+    height: 50px;
+    background: white;
+    line-height: 50px;
+}
+.team-name ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+.number1 p{
+    margin-left: 98px;
+}
+.la-pirates img{
+    float: left;
+margin: 12px 0 0 -10px;
+
+}
+.la-pirates .la{
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 24px;
+    height: 13px;
+    margin-top: -6px;
+}
+.la-pirates .clg{
+    margin: 0;
+    text-align: left;
+    margin-left: 24px;
+    font-size: 10px;
+    height: 0;
+}
+/* second */
+.team-name2{
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+.team-name2 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+/* three */
+.team-name3{
+    width: 100%;
+    height: 50px;
+    background: white;
+    line-height: 50px;
+}
+.team-name3 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+/* four */
+.team-name4{
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+.team-name4 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+/* five */
+.team-name5{
+    width: 100%;
+    height: 50px;
+    background: white;
+    line-height: 50px;
+}
+.team-name5 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+/* six */
+.team-name6{
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+.team-name6 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+/* seven */
+.team-name7{
+    width: 100%;
+    height: 50px;
+    background: white;
+    line-height: 50px;
+}
+.team-name7 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+/* eight */
+.team-name8{
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+}
+.team-name8 ul li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.number4 p{
+    margin-left: 88px;
+}
+.number5 p {
+    margin-left: 97px;
+}
+.number6 p{
+    margin-left: 81px;
+}
+.number7 p{
+    margin-left: 96px;
+}
+.number8 p{
+    margin-left: 89px;
+}
+.number9 p{
+    margin-left: 77px;
+}
+.number10 p{
+    margin-left: 104px;
+}
+
+
+/* popular-news area */
+
+.popular-new-head-text{
+    background-image: url("IMAGE/popular-player.png");
+        background-size: 100% 100%;
+        height: 43px;
+        display: grid;
+}
+.popular-new-head-text h5{
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+/* main-news-list */
+
+.the-team{
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 120px;
+    padding: 20px 30px;}
+
+.the-teamhead{
+    float: left;
+    height: 76px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #999999;
+    padding-right: 15px;
+    line-height: 80px;
+}
+
+.team-text{
+    text-align: left;
+    margin-bottom: 0px;
+}
+.the-yellow{
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #ffdc11;
+    margin-bottom: 5px;
+    border-radius: 2px;
+
+}
+.the-content{
+    font-size: 12px;
+    letter-spacing: .5px;
+    padding-top: .5px;
+}
+.date{
+    font-size: 10px;
+    padding-top: 5px;
+}
+/* news-list  */
+
+.the-purple{
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #9e69ee;
+    color: white;
+    border-radius: 2px;
+}
+.the-darkpink{
+    display: inline-block;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #f92552;    ;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+
+}
+
+
+
+/* featured-news */
+.featured-news-top-img{
+    margin-top: 20px;
+    background-image: url("IMAGE/popular-player.png");
+    background-size: 100% 100%;
+    height: 43px;
+    display: grid;
+}
+.featured-news-top-img h5{
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+/* featured-news-box */
+.featured-news-box {
+    width: 100%;
+  background-image: url("IMAGE/hi-res-88977784-michael-jordan-of-the-chicago-bulls-drives-the-ball-up_crop_exact.jpg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+.news-content{
+    width: 50%;
+    height: 120px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 30px;
+}
+.featured-news-box h5 {
+    bottom: 40px;
+}
+.featured-news-box p {
+    color: #ffdc11;
+}
+
+
+
+/* club-media-img */
+.club-media-img{
+    margin-top: 20px;
+    background-image: url("IMAGE/popular-player.png");
+    background-size: 100% 100%;
+    height: 43px;
+    display: grid;
+}
+.club-media-img h5{
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.club-image-set{
+    width: 100%;
+    position: relative;
+}
+.image-one{
+    position: relative;
+ }
+.image-one p{
+    position: absolute;
+    top: 88%;
+    left: 33%;
+    width: 80px;
+    border-radius: 2px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    background: #ffdc11;
+    transform: translate(-50%, -50%);
+}
+
+
+/* trading-news */
+.tranding-news{
+    margin-top: 20px;
+    background-image: url("IMAGE/popular-player.png");
+    background-size: 100% 100%;
+    height: 43px;
+    display: grid;
+}
+.tranding-news h5{
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+
+/* main-tranding-newset */
+.main-tranding-newset{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+
+}
+.tranding-menu{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+/* tranding-menu */
+.tranding-menu ul li{
+    float: left;
+    list-style: none;
+}
+.tranding-menu ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin: 0 32px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.tranding-newscontent{
+    width: 90%;
+    height: auto;
+    padding: 30px 35px;
+}
+.tranding-yellow{
+    width: 60px;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #ffdc11;
+    margin-bottom: .5rem;
+    border-radius: 2px;
+}
+.tranding-content{
+    font-weight: bold;
+}
+.sub-content{
+    line-height: 30px;
+}
+.date2 {
+    font-size: 10px;
+}
+/* tranding-injuries */
+.tranding-injuries{
+    width: 60px;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #9e69ee;
+    margin-bottom: .5rem;
+    border-radius: 2px;
+    color: white;
+}
+
+.tranding-darkpink{
+    width: 70px;
+    font-size: 10px;
+    padding: 2px 4px;
+    text-align: center;
+    background-color: #f92552;
+    margin-bottom: .5rem;
+    border-radius: 2px;
+    color: white;
+}
+    .tranding-newscontent2{
+        width: 90%;
+        height: auto;
+        padding: 0 35px 30px 35px;
+ }
+    .tranding-newscontent3{
+        width: 90%;
+        height: auto;
+        padding: 0 35px 30px 35px;
+}
+
+/* latest-blog */
+.latest-blog{
+    margin-top: 20px;
+    background-image: url("IMAGE/popular-player.png");
+    background-size: 100% 100%;
+    height: 43px;
+    display: grid;
+}
+.latest-blog h5{
+    margin: auto;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.eco-friendly img{
+    width: 100%;
+}
+/* footer-eco-friendly  */
+
+.footer-eco-friendly img{
+    width: 10%;
+    border-radius: 50%;
+}
+.eco-footer-name{
+    font-size: 10px;
+}
+
+.fa-thumbs-up {
+    font-size: 10px;
+    margin-right: 5px;
+    color: #999999;
+}
+.fa-eye{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #999999;
+
+}
+.fa-share-alt{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #999999;
+}
+
+
+
+
+
